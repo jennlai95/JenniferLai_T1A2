@@ -1,16 +1,16 @@
-
-@media screen and (max-width: 400px) {
-    footer {
-        width: 10px;
-        height: auto;
-    };
+img {
+  width: 40px;
+  height: auto;
 }
 
-h1 
- { 
-    color: red;
-    background-color: powderblue;
-    font: 100px;
-    justify-content: center;
-
+body {
+  background-color: #FFFEE3;
 }
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: auto;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */
