@@ -5,27 +5,79 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Cats </title>
-    <link rel="stylesheet" type="text/css" href="../styles/pages/blog.css">
+    <link rel="stylesheet" type="text/css" href="/styles/pages/blog.css">
 
 </head>
 
 
 <body>
-    <!-- nav bar to be used across the site in all views-->
-      <nav class="nav-bar">
-        <a href="/index.html">Home </a>
-        <a href="../about.html"> About</a>
-        <a href="../contacts.html">Contact</a>
-        <a href="../blog.html"> Blog</a>
-               </nav>     
-
-
-               <h1> Cats</h1>
+     
+<!-- nav bar to be used across the site in all blog views-->
+<div class="nav-bar">
+    <a href="/index.html" style="color: white; text-decoration: none;"> <ul>Home<ul></a>
+    <a href="../about.html" style="color: white; text-decoration: none;"><ul>About<ul></a>
+            <div class="dropdown">
+                 <button class="dropbtn">Blog</button>
+            <div class="blogpost">
+                <a href="/pages/blog.html" style="color: #3e10e4; text-decoration: none;"><ul><h3>Blog Page</h3></a>
+              <a href="post_1.html" style="color: #3e10e4; text-decoration: none;"> <h3> Html </h3> </a>
+              <a href="./post_2.html" style="color: #3e10e4; text-decoration: none;"> <h3> 
+                Mountains </h3> </a>
+              <a href="post_3.html" style="color: #3e10e4; text-decoration: none;"> <h3> Beach </h3> </a>
+              <a href="post_4.html" style="color: #3e10e4; text-decoration: none;"> <h3> scss </h3> </a>
+              <a href="post_5.html" style="color: #3e10e4; text-decoration: none;"> <h3> Cats </h3> </a>
+            </div>
+        </div>
+        <a href="/pages/contacts.html" class="hide-from-mobile" style="color: white; text-decoration: none;"><ul>Contact<ul></a>
+          </div>
+   </div> 
+        
+        <!-- Blog post-->
+        <h1> Cats</h1> <br>
+        <div class="container">
+           
+            <img src="/images/pexels-cong-h-1404819.jpg" width="50%">
+               
                 <div class= "paragraph">
                 <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
                 </div>
 
-
+        </div>
             </body>
+
+
+<!-- Footer to be used across the website-->
+<footer>
+    <div class="social-media">
+        <ul>
+            
+        <ul class="github"></ul>
+        <a href="https://github.com/" target="_blank"> 
+           <img src="/images/github-mark.png" alt="github icon" width=" 40px" >
+
+        </a>
+
+        <ul class="instagram"></ul>
+        <a href="https://www.instagram.com/" target="_blank"> 
+            <img src="/images/ig.png" alt="ig icon" width="40px" >
+    </a>
+        
+    
+
+     <ul class="linkedin"></ul>
+      <a href="https://www.linkedin.com/" target="_blank"> 
+        <img src="/images/linkedin-logo.png" alt="ig icon" width=" 40px" >
+</a>
+    
+        <ul class="contact-us"></ul>
+        <a href="/pages/contacts.html" target="_blank"> 
+        <img src="/images/email-logo.png" alt="ig icon" width=" 40px" >
+        </a>
+
+</ul>
+        </div>
+
+    
+</footer>
 </html>

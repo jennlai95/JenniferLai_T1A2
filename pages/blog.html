@@ -16,23 +16,37 @@
 
 </head>
 <body>
-      <!-- nav bar to be used across the site in all views-->
-      <nav class="nav-bar">
-        <a href="../index.html">Home </a>
-        <a href="./about.html"> About</a>
-        <a href="./contacts.html">Contact</a>
-        <a href="./blog.html"> Blog</a>
-               </nav>     
+
     
+  
 
-    <li> html post</li>
+<!-- nav bar to be used across the site in all views-->
+<div class="nav-bar">
+    <a href="../index.html" style="color: white; text-decoration: none;"> <ul>Home<ul></a>
+    <a href="/pages/about.html" style="color: white; text-decoration: none;"><ul>About<ul></a>
+            <div class="dropdown">
+                 <button class="dropbtn">Blog</button>
+            <div class="blogpost">
+                <a href="/pages/blog.html" style="color: #3e10e4; text-decoration: none;"><ul><h3>Blog Page</h3></a>
+              <a href="./posts/post_1.html" style="color: #3e10e4; text-decoration: none;"> <h3> Html </h3> </a>
+              <a href="./posts/post_2.html" style="color: #3e10e4; text-decoration: none;"> <h3> 
+                Mountains </h3> </a>
+              <a href="./posts/post_3.html" style="color: #3e10e4; text-decoration: none;"> <h3> Beach </h3> </a>
+              <a href="./posts/post_4.html" style="color: #3e10e4; text-decoration: none;"> <h3> scss </h3> </a>
+              <a href="./posts/post_5.html" style="color: #3e10e4; text-decoration: none;"> <h3> Cats </h3> </a>
+            </div>
+        </div>
+        <a href="/pages/contacts.html" class="hide-from-mobile" style="color: white; text-decoration: none;"><ul>Contact<ul></a>
+          </div>
+   </div> 
+  
+   <!--Header-- >
 
-    <!--Header-- >
+      <header> <h1> Blogs </h1> </header> 
+
     <main>
          
-         <section id="introduction">
-            <h1>Blog posts </h1>
-        </section>
+    
 
         <! -- blog container 1-->
         <div class="container">
@@ -40,65 +54,98 @@
             <img src="../images/computer-logo.jpg" alt ="computer-logo" width="200px">
             </a> 
             <section class="text">
-                <h2> Post </h2>
-                <a href="./posts/post_1.html">
-                 <h2> Html </h2> </a>
-                 <p> Lorum posum </p>
+            
+                <a href="./posts/post_1.html" style="color: #f4f2ff; text-decoration: none;"> <h2> Html </h2> </a>
+                <h3> 30 March 2023</h3>
+                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
                 </section>
         </div>
 
 
         <!-- blog container 2-->
         <div class="container">
-            <a href="./posts/post_2.html"></a>
-
-        
-        <section class="text">
-            <h2> Post </h2>
             <a href="./posts/post_2.html">
-             <h2> Html </h2> </a>
-             <p> Lorum posum </p>
-            </section>
+            <img src="../images/pexels-joyston-judah-933054.jpg" alt ="computer-logo" width="200px">
+            </a> 
+            <section class="text">
+                
+                <a href="./posts/post_2.html" style="color: #f4f2ff; text-decoration: none;"> <h2> Mountains </h2> </a>
+                <h3> 27 March 2023</h3>
+                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </section>
         </div>
        
 
          <!-- blog container 3-->
          <div class="container">
-            <a href="./posts/post_3.html"></a>
-
-        
-        <section class="text">
-            <h2> Post </h2>
             <a href="./posts/post_3.html">
-             <h2> Html </h2> </a>
-             <p> Lorum posum </p>
-            </section>
+            <img src="../images/pexels-maria-isabella-bernotti-1049298.jpg" alt ="computer-logo" width="200px">
+            </a>
+            <section class="text">
+            
+                <a href="./posts/post_3.html" style="color: #f4f2ff; text-decoration: none;"> <h2> Beach </h2> </a>
+                <h3> 27 March 2023</h3>
+                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </section>
+          
         </div>
         
          <!-- blog container 4-->
          <div class="container">
-            <a href="./posts/post_4.html"></a>
-
-        
-        <section class="text">
-            <h2> Post </h2>
             <a href="./posts/post_4.html">
-             <h2> Html </h2> </a>
-             <p> Lorum posum </p>
-            </section>
+            <img src="../images/scss.png" alt="Cat" width="200px"> </a>
+            <section class="text">
+            
+                <a href="./posts/post_4.html" style="color: #f4f2ff; text-decoration: none;"> <h2> SCSS </h2> </a>
+                <h3> 23 March 2023</h3>
+                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </section>
         </div>
 
         <!-- blog container 5-->
         <div class="container">
-            <a href="./posts/post_5.html"></a>
-
-        
-        <section class="text">
-            <h2> Post </h2>
             <a href="./posts/post_5.html">
-             <h2> Cats </h2> </a>
-             <p> Lorum posum </p>
-            </section>
+            <img src="../images/pexels-cong-h-1404819.jpg" alt="Cat" width="200px"></a>
+            <section class="text">
+            
+                <a href="./posts/post_5.html" style="color: #f4f2ff; text-decoration: none;"> <h2> Cats </h2> </a>
+                <h3> 17 March 2023</h3>
+                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+                </section>
         </div>
 </body>
+
+<!-- Footer to be used across the website-->
+<footer>
+    <div class="social-media">
+        <ul>
+            
+        <ul class="github"></ul>
+        <a href="https://github.com/" target="_blank"> 
+           <img src="/images/github-mark.png" alt="github icon" width=" 40px" >
+
+        </a>
+
+        <ul class="instagram"></ul>
+        <a href="https://www.instagram.com/" target="_blank"> 
+            <img src="/images/ig.png" alt="ig icon" width="40px" >
+    </a>
+        
+    
+
+     <ul class="linkedin"></ul>
+      <a href="https://www.linkedin.com/" target="_blank"> 
+        <img src="/images/linkedin-logo.png" alt="ig icon" width=" 40px" >
+</a>
+    
+        <ul class="contact-us"></ul>
+        <a href="./contacts.html" target="_blank"> 
+        <img src="/images/email-logo.png" alt="ig icon" width=" 40px" >
+        </a>
+
+</ul>
+        </div>
+
+    
+</footer>
 </html>

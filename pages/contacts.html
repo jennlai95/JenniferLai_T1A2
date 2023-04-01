@@ -8,19 +8,36 @@
     <link rel="stylesheet" href="../styles/pages/contact.css">
 </head>
 <body>
-   <!--Header-->
-   <header> <h1> Contact </h1> </header>
-   <!-- nav bar to be used across the site in all views-->
-   <nav class="nav-bar">
-      <a href="../index.html">Home </a>
-      <a href="./about.html"> About</a>
-      <a href="./contacts.html">Contact</a>
-      <a href="./blog.html"> Blog</a>
-             </nav>     
-        
-   <!--contact form-->
 
-    
+    <!--Header-->
+    <header> <h1> Contact </h1> 
+     </header>
+     
+<!-- nav bar to be used across the site in all views-->
+
+
+  
+   <nav>
+   <div class="nav-bar">
+       <a href="../index.html" style="color: white; text-decoration: none;"> <ul>Home<ul></a>
+        <a href="/pages/about.html" style="color: white; text-decoration: none;"><ul>About<ul></a>
+           
+            <a href="/pages/contacts.html" class="hide-from-mobile" style="color: #393641; text-decoration: none;"><ul>Contact<ul></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Blog</button>
+                    <div class="blogpost">
+                      <a href="./posts/post_1.html" style="color: #3e10e4; text-decoration: none;"> <h3> Html </h3> </a>
+                      <a href="./posts/post_2.html" style="color: #3e10e4; text-decoration: none;"> <h3> 
+                        Mountains </h3> </a>
+                      <a href="./posts/post_3.html" style="color: #3e10e4; text-decoration: none;"> <h3> Beach </h3> </a>
+                      <a href="./posts/post_4.html" style="color: #3e10e4; text-decoration: none;"> <h3> scss </h3> </a>
+                      <a href="./posts/post_5.html" style="color: #3e10e4; text-decoration: none;"> <h3> Cats </h3> </a>
+                    </div>
+                </div> 
+              </nav>
+
+
+    <!--contact form-->             
     <form> 
       
        <div class="form-elements">
@@ -36,7 +53,7 @@
             <input class="form-input" placeholder="email...">
 
             <label for="Subject"> Subject</label>
-            <input class="form-message" placeholder="Write something" ></textarea>
+            <input class="form-message" placeholder="Write your message here.." ></textarea>
 
             <div class="btn-div">
                <button id="submit">Submit</button>
@@ -46,16 +63,40 @@
 
     </form>
 
-
+    
 </body>
 
+<!-- Footer to be used across the website-->
 <footer>
-   <div class="footer">
-       <a href="https://github.com/" target="_blank"> 
-          <img src="/images/github-mark.png" alt="github icon">
+    <div class="social-media">
+        <ul>
+            
+        <ul class="github"></ul>
+        <a href="https://github.com/" target="_blank"> 
+           <img src="/images/github-mark.png" alt="github icon" width=" 40px" >
 
-       </a>
+        </a>
 
-   </div>
+        <ul class="instagram"></ul>
+        <a href="https://www.instagram.com/" target="_blank"> 
+            <img src="/images/ig.png" alt="ig icon" width="40px" >
+    </a>
+        
+    
+
+     <ul class="linkedin"></ul>
+      <a href="https://www.linkedin.com/" target="_blank"> 
+        <img src="/images/linkedin-logo.png" alt="ig icon" width=" 40px" >
+</a>
+    
+        <ul class="contact-us"></ul>
+        <a href="./contacts.html" target="_blank"> 
+        <img src="/images/email-logo.png" alt="ig icon" width=" 40px" >
+        </a>
+
+</ul>
+        </div>
+
+    
 </footer>
 </html>

@@ -6,20 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="stylesheet" type="text/css" href=".../styles/pages/blog.css">
+    <link rel="stylesheet" type="text/css" href="/styles/pages/blog.css">
 
 </head>
 
 
 <body>
-    <!-- nav bar to be used across the site in all views-->
-      <nav class="nav-bar">
-        <a href="/index.html"> Index </a>
-        <a href="../about.html"> About</a>
-        <a href="../contacts.html">Contact</a>
-        <a href="../blog.html"> Blog</a>
-               </nav>     
-
+   
+     
+<!-- nav bar to be used across the site in all blog views-->
+<div class="nav-bar">
+  <a href="/index.html" style="color: white; text-decoration: none;"> <ul>Home<ul></a>
+  <a href="../about.html" style="color: white; text-decoration: none;"><ul>About<ul></a>
+          <div class="dropdown">
+               <button class="dropbtn">Blog</button>
+          <div class="blogpost">
+              <a href="/pages/blog.html" style="color: #3e10e4; text-decoration: none;"><ul><h3>Blog Page</h3></a>
+            <a href="post_1.html" style="color: #3e10e4; text-decoration: none;"> <h3> Html </h3> </a>
+            <a href="./post_2.html" style="color: #3e10e4; text-decoration: none;"> <h3> 
+              Mountains </h3> </a>
+            <a href="post_3.html" style="color: #3e10e4; text-decoration: none;"> <h3> Beach </h3> </a>
+            <a href="post_4.html" style="color: #3e10e4; text-decoration: none;"> <h3> scss </h3> </a>
+            <a href="post_5.html" style="color: #3e10e4; text-decoration: none;"> <h3> Cats </h3> </a>
+          </div>
+      </div>
+      <a href="/pages/contacts.html" class="hide-from-mobile" style="color: white; text-decoration: none;"><ul>Contact<ul></a>
+        </div>
+ </div> 
+          
                <!-- Main Body of blog post-->
 
                <main>
@@ -32,7 +46,7 @@
                                    
                   </div>
                   <article>
-                    <img class="title-image" src="../../imgs/blogpost_2.png" alt="Fontology">
+                    <img  src="/images/computer-logo.jpg" alt="Blog Post" class="title-image" >
                     <p class="main-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt assumenda laborum laudantium quae cum dignissimos debitis dicta non numquam saepe alias unde quibusdam impedit inventore iusto nisi, quod minus fugit at necessitatibus quas, nam distinctio officia asperiores! Repudiandae eveniet est velit, voluptate deleniti, perspiciatis corporis maiores a voluptates fuga dolor laudantium non quas ducimus soluta! Quod error illo magni? Iure, ut. Minus nulla pariatur debitis sunt aut modi porro delectus perferendis nobis facilis quis similique quos reprehenderit fuga, blanditiis quisquam illo ducimus placeat. Ducimus excepturi at rerum pariatur aperiam, vero asperiores dolores doloribus? Nobis perferendis rem perspiciatis quod. 
                         <br>
@@ -49,9 +63,37 @@
           
 </body>
 
+<!-- Footer to be used across the website-->
 <footer>
-   <p> 
+  <div class="social-media">
+      <ul>
+          
+      <ul class="github"></ul>
+      <a href="https://github.com/" target="_blank"> 
+         <img src="/images/github-mark.png" alt="github icon" width=" 40px" >
 
-   </p>
+      </a>
+
+      <ul class="instagram"></ul>
+      <a href="https://www.instagram.com/" target="_blank"> 
+          <img src="/images/ig.png" alt="ig icon" width="40px" >
+  </a>
+      
+  
+
+   <ul class="linkedin"></ul>
+    <a href="https://www.linkedin.com/" target="_blank"> 
+      <img src="/images/linkedin-logo.png" alt="ig icon" width=" 40px" >
+</a>
+  
+      <ul class="contact-us"></ul>
+      <a href="/pages/contacts.html" target="_blank"> 
+      <img src="/images/email-logo.png" alt="ig icon" width=" 40px" >
+      </a>
+
+</ul>
+      </div>
+
+  
 </footer>
 </html>

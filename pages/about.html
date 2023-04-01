@@ -11,28 +11,49 @@
 
 </head>
 <body>
-    <nav class="nav-bar">
-     <a href="../index.html">Home </a>
-     <a href="./about.html"> About</a>
-     <a href="./contacts.html">Contact</a>
-     <a href="./blog.html"> Blog</a>
-            </nav>     
+    <!-- nav bar to be used across the site in all views-->
+    
+      
+  <!-- nav bar to be used across the site in all views-->
+<div class="nav-bar">
+    <a href="../index.html" style="color: white; text-decoration: none;"> <ul>Home<ul></a>
+    <a href="/pages/about.html" style="color: white; text-decoration: none;"><ul>About<ul></a>
+            <div class="dropdown">
+                 <ul><button class="dropbtn">Blog</button></ul>
+            <div class="blogpost">
+                <a href="/pages/blog.html" style="color: #3e10e4; text-decoration: none;"><ul><h3>Blog Page</h3></a>
+              <a href="./posts/post_1.html" style="color: #3e10e4; text-decoration: none;"> <h3> Html </h3> </a>
+              <a href="./posts/post_2.html" style="color: #3e10e4; text-decoration: none;"> <h3> 
+                Mountains </h3> </a>
+              <a href="./posts/post_3.html" style="color: #3e10e4; text-decoration: none;"> <h3> Beach </h3> </a>
+              <a href="./posts/post_4.html" style="color: #3e10e4; text-decoration: none;"> <h3> scss </h3> </a>
+              <a href="./posts/post_5.html" style="color: #3e10e4; text-decoration: none;"> <h3> Cats </h3> </a>
+            </div>
+        </div>
+        <a href="/pages/contacts.html" class="hide-from-mobile" style="color: white; text-decoration: none;"><ul>Contact<ul></a>
+          </div>
+   </div> 
+            
         <header> <h1> About me </h1> </header>
 
         <p> I'm Jennifer an aspiring Web developer and student in CoderAcademy based in Melbourne, Australia </p>
       <!-- nav bar to be used across the site in all views-->
 
         <h2> Resume </h2>
-        <link href="resume.pdf">
+        <p> Resume in the link below!</p>
 
-        <div class="github">
-            <a href="https://github.com/">
-                <img src="/images/github-mark.png" alt="github" width: 200px >
+        <a href="/default/resume.pdf" target = "_self"> Resume 
+            </a>
+
+        
 </body>
 
+
+<!-- Footer to be used across the website-->
 <footer>
     <div class="social-media">
         <ul>
+            
         <ul class="github"></ul>
         <a href="https://github.com/" target="_blank"> 
            <img src="/images/github-mark.png" alt="github icon" width=" 40px" >
@@ -41,14 +62,24 @@
 
         <ul class="instagram"></ul>
         <a href="https://www.instagram.com/" target="_blank"> 
-            <img src="/images/ig.jpg" alt="ig icon"width=" 40px" >
+            <img src="/images/ig.png" alt="ig icon" width="40px" >
     </a>
         
-    </ul>
+    
 
-    <ul>    </ul>
+     <ul class="linkedin"></ul>
+      <a href="https://www.linkedin.com/" target="_blank"> 
+        <img src="/images/linkedin-logo.png" alt="ig icon" width=" 40px" >
+</a>
+    
+        <ul class="contact-us"></ul>
+        <a href="./contacts.html" target="_blank"> 
+        <img src="/images/email-logo.png" alt="ig icon" width=" 40px" >
+        </a>
+
+</ul>
         </div>
-<div
+
     
 </footer>
 </html>

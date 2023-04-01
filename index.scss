@@ -1,10 +1,61 @@
+
+@import "./defaults/breakpoint";
+@import "/styles/defaults/color";
+
+
+
+body {
+    background-color: $primary-background;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+
+
+
+.nav-bar {
+    background-color: red;
+    height: 100px;
+}
+}
+
+
+.hide-from-mobile {
+    display: none;
+}
+
+
+@media screen and (min-width: 450px) {
+    .hide-from-mobile {
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        justify-content: center;
+    }
+}
+
+
+    .name {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 img {
     width: 40px;
     height: auto;
 }
 
-body {
-    background-color: #FFFEE3;
+
+ul {
+    display: inline;
+    justify-content: center;
+    margin: auto;
+    text-align:center;
+    padding: 8px;
 }
 
 footer {
