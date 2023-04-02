@@ -52,7 +52,7 @@ Blog page
 
 Footer
 
-![Website Home Page] (/images/website-home-page.png)
+!Website Home Page (images/website-home-page.png)
 
 
 Images used :
