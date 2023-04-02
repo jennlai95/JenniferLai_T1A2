@@ -1,16 +1,19 @@
 body {
   background-color: #9dba9a;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 10px;
 }
 
-/* The Dropdown Button */
+/*  The Dropdown Button */
 .dropbtn {
   background-color: #9dba9a;
   color: white;
- 
+  padding: 16px;
   font-size: 16px;
   border: none;
   cursor: pointer;
@@ -22,14 +25,15 @@ body {
   display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
+/* Dropdown Menu */
 .blogpost {
   display: none;
   position: absolute;
-  background-color:#607b5d;
+  background-color: #607b5d;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Links inside the dropdown */
@@ -40,8 +44,9 @@ body {
   display: block;
 }
 
-/* Change color of dropdown links on hover */
-.blogpost a:hover {background-color: #f1f1f1}
+.blogpost a:hover {
+  background-color: #ffffff;
+}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .blogpost {
@@ -53,37 +58,49 @@ body {
   background-color: #3e8e41;
 }
 
-
+.nav-bar {
+  height: 100px;
+}
 
 .hide-from-mobile {
   display: none;
 }
 
-
 @media screen and (min-width: 450px) {
   .hide-from-mobile {
-      display: inline-block;
-      left: 0;
-      bottom: 0;
-      width: auto;
-     flex-wrap: wrap;
-      justify-content: center;
-      align-items: center;
+    display: inline-block;
+    left: 0;
+    bottom: 0;
+    width: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
+}
+title-image {
+  text-align: center;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin: auto;
 }
 
 ul {
   display: inline;
   justify-content: center;
-  text-decoration: none;
 }
 
 p {
   font-family: Arial;
+  color: white;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
   margin-top: auto;
+  max-height: 10vh;
 }
 
 .social-media {

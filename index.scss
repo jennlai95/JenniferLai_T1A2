@@ -1,69 +1,113 @@
 
-@import "./defaults/breakpoint";
-@import "/styles/defaults/color";
-
-
 
 body {
-    background-color: $primary-background;
-    min-height: 100vh;
+    background-color: #9dba9a;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Navigation Bar Styling */ 
+  /* The Dropdown Button */
+            .dropbtn {
+            background-color: #9dba9a;
+            color: white;
+        
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+        
+        /* The container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+   
+        
+        /* Dropdown Content inner blog */
+        .blogpost {
+            display: none;
+            position: absolute;
+            background-color:#9dba9a;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+        
+        /* Links inside the dropdown */
+        .blogpost a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
 
-
-
-.nav-bar {
-    background-color: red;
-    height: 100px;
-}
-}
-
-
-.hide-from-mobile {
-    display: none;
-}
-
-
-@media screen and (min-width: 450px) {
-    .hide-from-mobile {
-        display: inline-block;
-        left: 0;
-        bottom: 0;
-        width: auto;
-        justify-content: center;
-    }
-}
-
-
-    .name {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-img {
-    width: 40px;
-    height: auto;
-}
-
-
-ul {
+        
+        /* Change color of dropdown links on hover */
+        .blogpost a:hover {background-color: #4a6c46}
+        
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .blogpost {
+            display: block;
+        }
+        
+        /* Change the background color of the dropdown button when the dropdown content is shown */
+        .dropdown:hover .dropbtn {
+            background-color: #3e8e41;
+        }
+        
+        
+        
+        .hide-from-mobile {
+            display: none;
+        }
+        
+        
+        @media screen and (min-width: 450px) {
+            .hide-from-mobile {
+                display: inline-block;
+                left: 0;
+                bottom: 0;
+                width: auto;
+            flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+   /* Body styles */
+   
+h1 {
+    color: white;
+   }
+   
+   
+   /* footer styling */
+  
+  ul {
     display: inline;
     justify-content: center;
+    text-decoration: none;
+  }
+  
+  p {
+    font-family: Arial;
+  }
+  
+  footer {
+    margin-top: auto;
+    max-height: 10vh;
+  }
+  
+  .social-media {
     margin: auto;
-    text-align:center;
-    padding: 8px;
-}
-
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: auto;
     text-align: center;
-
-}
-
+    padding: 8px;
+  }
+  
+  a {
+    text-decoration: none;
+  }/*# sourceMappingURL=about.css.map */

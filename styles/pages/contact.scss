@@ -1,17 +1,28 @@
 
-@import "../defaults/breakpoint";
 @import "../defaults/color";
 
-/* Dropdown Button */
+body {
+    background-color: $primary-background;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* The Dropdown Button */
 .dropbtn {
-    background-color: #04AA6D;
+    background-color: #9dba9a;
     color: white;
-    padding: 16px;
+   
     font-size: 16px;
     border: none;
+    cursor: pointer;
   }
   
-  /* The container <div> - needed to position the dropdown content */
+  /* The container for dropdown*/
   .dropdown {
     position: relative;
     display: inline-block;
@@ -21,7 +32,7 @@
   .blogpost {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color:#607b5d;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -29,24 +40,25 @@
   
   /* Links inside the dropdown */
   .blogpost a {
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-    }
-    
-/* Change color of dropdown links on hover */
-.blogpost a:hover {background-color: #ddd;}
-
-/* Show the dropdown menu on hover */
-.blogpost:hover .blogpost {display: block;}
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-.blogpost:hover .dropbtn {background-color: #3e8e41;}
-
-.nav-bar {
-    display: none;
-}
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .blogpost a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .blogpost {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
 
 @media screen and (min-width: 450px) {
     .hide-from-mobile {
@@ -59,14 +71,17 @@
     }
 }
 
-body {
-    background-color: $primary-background;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
+
+@media screen and (min-width: 450px) {
+    .hide-from-mobile {
+        display: inline-block;
+        left: 0;
+        bottom: 0;
+        width: auto;
+        justify-content: center;
+        flex-grow: 1;
+    }
 }
 
 

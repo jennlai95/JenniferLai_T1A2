@@ -3,11 +3,15 @@
 
 body {
     background-color: $primary-background;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 }
+
 /*  The Dropdown Button */
 .dropbtn {
     background-color: #9dba9a;
@@ -28,10 +32,11 @@ body {
   .blogpost {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: $primary-color;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   /* Links inside the dropdown */
@@ -56,17 +61,17 @@ body {
   }
   
 .nav-bar {
-    background-color: red;
+    
     height: 100px;
 }
 
-#hide-from-mobile {
+.hide-from-mobile {
     display: none;
   }
   
   
   @media screen and (min-width: 450px) {
-    #hide-from-mobile {
+    .hide-from-mobile {
         display: inline-block;
         left: 0;
         bottom: 0;
@@ -76,7 +81,9 @@ body {
         align-items: center;
     }
   }
-  
+
+
+
   title-image {
     text-align: center;
     width: 50%;
@@ -94,10 +101,16 @@ ul {
 
 p { 
     font-family: Arial; 
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
 }
 
 footer {
     margin-top: auto;
+    max-height: 10vh;
+    
   
 }
 
