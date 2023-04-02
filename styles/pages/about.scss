@@ -65,6 +65,7 @@ body {
     height: 100px;
 }
 
+/* hiding menu from mobile to fit the nav bar*/
 .hide-from-mobile {
     display: none;
   }
@@ -83,8 +84,9 @@ body {
   }
 
 
+/* footer & body styling */
 
-  title-image {
+  .title-image {
     text-align: center;
     width: 50%;
     height: 50%;

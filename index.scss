@@ -1,4 +1,4 @@
-
+@import "./styles/defaults/color";
 
 body {
     background-color: #9dba9a;
@@ -15,8 +15,7 @@ body {
             .dropbtn {
             background-color: #9dba9a;
             color: white;
-        
-            font-size: 16px;
+             font-size: 16px;
             border: none;
             cursor: pointer;
         }
@@ -32,7 +31,7 @@ body {
         .blogpost {
             display: none;
             position: absolute;
-            background-color:#9dba9a;
+            background-color: $primary-color;
             min-width: 160px;
             box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
             z-index: 1;
@@ -84,7 +83,6 @@ h1 {
     color: white;
    }
    
-   
    /* footer styling */
   
   ul {
@@ -93,10 +91,8 @@ h1 {
     text-decoration: none;
   }
   
-  p {
-    font-family: Arial;
-  }
-  
+
+
   footer {
     margin-top: auto;
     max-height: 10vh;

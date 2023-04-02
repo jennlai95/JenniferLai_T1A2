@@ -3,12 +3,13 @@
 
 body {
     background-color: $primary-background;
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
 
 }
 
@@ -16,7 +17,6 @@ body {
 .dropbtn {
     background-color: #9dba9a;
     color: white;
-   
     font-size: 16px;
     border: none;
     cursor: pointer;
@@ -60,31 +60,31 @@ body {
   }
   
 
-@media screen and (min-width: 450px) {
-    .hide-from-mobile {
-        display: flex;
-        left: 0;
-        bottom: 0;
-        width: auto;
-        justify-content: center;
-        flex-grow: 1;
-    }
+  .nav-bar {
+    
+    height: 50px;
 }
 
+/* hiding menu from mobile to fit the nav bar*/
+.hide-from-mobile {
+    display: none;
 
+}
 
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 500px) {
     .hide-from-mobile {
         display: inline-block;
         left: 0;
         bottom: 0;
         width: auto;
+        flex-wrap: wrap;
         justify-content: center;
-        flex-grow: 1;
-    }
+        align-items: center;
+}
 }
 
 
+/* contact form styles */ 
 
 form
     .form-elements {
@@ -109,13 +109,9 @@ form
         }
 }
 
+/* footer styles */
 
-@media screen and (max-width: 400px) {
-    footer {
-        width: 10px;
-        height: auto;
-    };
-}
+
 
 ul {
     display: inline;
