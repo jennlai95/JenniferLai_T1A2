@@ -73,6 +73,15 @@ body {
   }
 }
 /* Body styles */
+.portfolio {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
 h1 {
   color: white;
 }
@@ -82,10 +91,6 @@ ul {
   display: inline;
   justify-content: center;
   text-decoration: none;
-}
-
-p {
-  font-family: Arial;
 }
 
 footer {

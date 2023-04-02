@@ -1,7 +1,7 @@
 @import "./styles/defaults/color";
 
 body {
-    background-color: #9dba9a;
+    background-color: $primary-background;
     min-height: 90vh;
     display: flex;
     flex-direction: column;
@@ -78,7 +78,17 @@ body {
             }
         }
    /* Body styles */
-   
+
+.portfolio {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  display: block;
+  margin: auto;
+}
+
+
 h1 {
     color: white;
    }
