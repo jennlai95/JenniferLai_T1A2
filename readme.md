@@ -19,7 +19,7 @@ Github: https://github.com/jennlai95
 Github repo: https://github.com/jennlai95/Assignment-work-portfolio.git
 presentation: https://youtu.be/H3pOevFX1RQ
 
-Website URL: https://bright-cassata-d480f0.netlify.app
+Website URL: https://jenniferlai-t1a2.netlify.app - updated URL 
 
 
 
